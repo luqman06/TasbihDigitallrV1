@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layar"
+>
+
+    <TextView
+        android:id="@+id/teks_tampil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="572dp"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bulat2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginEnd="163dp"
+        android:textColor="#FAF6F6"
+        android:layout_marginBottom="447dp"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#F6F6F6"
+        android:textSize="60sp"
+        android:text=""
+        android:hint="Tekan"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/bulat" />
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
